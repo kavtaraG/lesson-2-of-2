@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    
     <title>Blog</title>
 </head>
 <body>
@@ -14,18 +15,28 @@
         <h1>pure HTML/CSS</h1>
     </section>
     <!--navigation section-->
-    <section class="navBoard">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <style>a{text-decoration: none;}</style>
-    </section>
-    <!--paragraphs headers-->
-    <h2>Brick by Brick...</h2>
-    <p>Hello, and welcome to my simple codepen layout of a pure html/css<br> webpage. My name is Kevin Gay and I am a self-taught developer.</p>
+    <div class="background">
+        <section class="navBoard">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <style>a{text-decoration: none;}</style>
+        </section>
+        <!--paragraphs headers-->
+        <h2>Brick by Brick...</h2>
+            <p>Hello, and welcome to my simple codepen layout of a pure html/css<br> webpage. My name is Kevin Gay and I am a self-taught developer.</p>
+          
+        
+    </div>
+    <div class="audio" id="audio">
+        <audio controls autoplay muted>
+            <source src="richard-wagner-the-valkyrie-the-ride-of-the-valkyries.mp3" type="audio/mpeg">
+          </audio>
+     </div> 
+    
 </body>
 </html>

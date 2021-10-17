@@ -6,7 +6,10 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     position: absolute;
+    background-color: burlywood;
+    background-image: linear-gradient(right, red, yellow);
 }
+
 h1{
     text-align: center;
     color: whitesmoke;
@@ -15,6 +18,7 @@ h1{
     padding-bottom: 200px;
     transition: 1s;
     line-height: normal;
+    padding-top: -200px;
 }
 h1:hover{
     font-size:300%;
@@ -37,7 +41,15 @@ nav{
     position: relative;
     margin-left: -8px;
     margin-top: -80px;
+    background-attachment: fixed;
 }
+
+.background{
+    background: url(https://images.squarespace-cdn.com/content/v1/52cc324ce4b0c0e802464336/1505744195676-QE08A7OETMLHSTV3WU9L/aircraft_a-10_thunderbolt_ii_desktop_1024x768_hd-wallpaper-708126.jpg)top repeat;
+    position: relative;
+
+}
+
 
 ul, li{
     display: flex;
@@ -46,16 +58,50 @@ ul, li{
 
 h2{
     padding-left: 690px;
-    padding-top:220px;   
+    padding-top:220px;
+    transition: 1s; 
+    color: goldenrod;  
+}
+h2::first-letter{
+    font-size: xx-large;
+    color: whitesmoke;
+}
+h2:hover{
+    font-size: 100px;
 }
 p{
-    text-align: center;
     font-size: large;
     padding-bottom: 20px;
+    padding-left: 700px;
+    position: absolute;
+    text-align: center;
+}
+p:hover{
+    letter-spacing: 1px;
+    transition: 2s;
 }
 
 a{
     text-decoration: none;
     font-size: larger;
     color: whitesmoke;
+    transition: 2s;
+}
+a:hover{
+    font-weight: bolder;
+    transform: rotate(180deg);
+}
+
+.audio{
+    
+}
+
+@media screen and (max-width: 600px){
+   
+
+}
+
+@media screen and (max-height: 300px){
+   
+
 }
